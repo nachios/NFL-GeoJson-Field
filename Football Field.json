@@ -4,77 +4,83 @@
     {
       "type": "Feature",
       "id": "left_short",
-      "properties": { "location": "left", "depth": "short", "label": "Left Short (0-5)" },
+      "properties": { "region": "left_short", "label": "Left Short (0–5)" },
       "geometry": { "type": "Polygon", "coordinates": [[[0,0],[0,5],[33,5],[33,0],[0,0]]] }
     },
     {
       "type": "Feature",
       "id": "middle_short",
-      "properties": { "location": "middle", "depth": "short", "label": "Middle Short (0-5)" },
+      "properties": { "region": "middle_short", "label": "Middle Short (0–5)" },
       "geometry": { "type": "Polygon", "coordinates": [[[33,0],[33,5],[66,5],[66,0],[33,0]]] }
     },
     {
       "type": "Feature",
       "id": "right_short",
-      "properties": { "location": "right", "depth": "short", "label": "Right Short (0-5)" },
+      "properties": { "region": "right_short", "label": "Right Short (0–5)" },
       "geometry": { "type": "Polygon", "coordinates": [[[66,0],[66,5],[100,5],[100,0],[66,0]]] }
     },
 
     {
       "type": "Feature",
       "id": "left_medium",
-      "properties": { "location": "left", "depth": "medium", "label": "Left Medium (6-15)" },
+      "properties": { "region": "left_medium", "label": "Left Medium (6–15)" },
       "geometry": { "type": "Polygon", "coordinates": [[[0,6],[0,15],[33,15],[33,6],[0,6]]] }
     },
     {
       "type": "Feature",
       "id": "middle_medium",
-      "properties": { "location": "middle", "depth": "medium", "label": "Middle Medium (6-15)" },
+      "properties": { "region": "middle_medium", "label": "Middle Medium (6–15)" },
       "geometry": { "type": "Polygon", "coordinates": [[[33,6],[33,15],[66,15],[66,6],[33,6]]] }
     },
     {
       "type": "Feature",
       "id": "right_medium",
-      "properties": { "location": "right", "depth": "medium", "label": "Right Medium (6-15)" },
+      "properties": { "region": "right_medium", "label": "Right Medium (6–15)" },
       "geometry": { "type": "Polygon", "coordinates": [[[66,6],[66,15],[100,15],[100,6],[66,6]]] }
     },
 
     {
       "type": "Feature",
       "id": "left_long",
-      "properties": { "location": "left", "depth": "long", "label": "Left Long (16-25)" },
+      "properties": { "region": "left_long", "label": "Left Long (16–25)" },
       "geometry": { "type": "Polygon", "coordinates": [[[0,16],[0,25],[33,25],[33,16],[0,16]]] }
     },
     {
       "type": "Feature",
       "id": "middle_long",
-      "properties": { "location": "middle", "depth": "long", "label": "Middle Long (16-25)" },
+      "properties": { "region": "middle_long", "label": "Middle Long (16–25)" },
       "geometry": { "type": "Polygon", "coordinates": [[[33,16],[33,25],[66,25],[66,16],[33,16]]] }
     },
     {
       "type": "Feature",
       "id": "right_long",
-      "properties": { "location": "right", "depth": "long", "label": "Right Long (16-25)" },
+      "properties": { "region": "right_long", "label": "Right Long (16–25)" },
       "geometry": { "type": "Polygon", "coordinates": [[[66,16],[66,25],[100,25],[100,16],[66,16]]] }
     },
 
     {
       "type": "Feature",
       "id": "left_deep",
-      "properties": { "location": "left", "depth": "deep", "label": "Left Deep (26+)" },
+      "properties": { "region": "left_deep", "label": "Left Deep (26+)" },
       "geometry": { "type": "Polygon", "coordinates": [[[0,26],[0,50],[33,50],[33,26],[0,26]]] }
     },
     {
       "type": "Feature",
       "id": "middle_deep",
-      "properties": { "location": "middle", "depth": "deep", "label": "Middle Deep (26+)" },
+      "properties": { "region": "middle_deep", "label": "Middle Deep (26+)" },
       "geometry": { "type": "Polygon", "coordinates": [[[33,26],[33,50],[66,50],[66,26],[33,26]]] }
     },
     {
       "type": "Feature",
       "id": "right_deep",
-      "properties": { "location": "right", "depth": "deep", "label": "Right Deep (26+)" },
+      "properties": { "region": "right_deep", "label": "Right Deep (26+)" },
       "geometry": { "type": "Polygon", "coordinates": [[[66,26],[66,50],[100,50],[100,26],[66,26]]] }
+    },
+    {
+      "type": "Feature",
+      "id": "field_border",
+      "properties": { "label": "Field Border", "stroke": "#000000", "stroke-width": 2 },
+      "geometry": { "type": "Polygon", "coordinates": [[[0,0],[100,0],[100,50],[0,50],[0,0]]] }
     },
 
     {
@@ -87,39 +93,58 @@
     {
       "type": "Feature",
       "id": "yard_10",
-      "properties": { "label": "Yard +10", "stroke": "#AAAAAA", "stroke-width": 1 },
+      "properties": { "label": "Yard +10", "stroke": "#AAAAAA" },
       "geometry": { "type": "LineString", "coordinates": [[0,10],[100,10]] }
     },
     {
       "type": "Feature",
       "id": "yard_20",
-      "properties": { "label": "Yard +20", "stroke": "#AAAAAA", "stroke-width": 1 },
+      "properties": { "label": "Yard +20", "stroke": "#AAAAAA" },
       "geometry": { "type": "LineString", "coordinates": [[0,20],[100,20]] }
     },
     {
       "type": "Feature",
       "id": "yard_30",
-      "properties": { "label": "Yard +30", "stroke": "#AAAAAA", "stroke-width": 1 },
+      "properties": { "label": "Yard +30", "stroke": "#AAAAAA" },
       "geometry": { "type": "LineString", "coordinates": [[0,30],[100,30]] }
     },
     {
       "type": "Feature",
       "id": "yard_40",
-      "properties": { "label": "Yard +40", "stroke": "#AAAAAA", "stroke-width": 1 },
+      "properties": { "label": "Yard +40", "stroke": "#AAAAAA" },
       "geometry": { "type": "LineString", "coordinates": [[0,40],[100,40]] }
     },
     {
       "type": "Feature",
       "id": "yard_50",
-      "properties": { "label": "Yard +50", "stroke": "#AAAAAA", "stroke-width": 1 },
+      "properties": { "label": "Yard +50", "stroke": "#AAAAAA" },
       "geometry": { "type": "LineString", "coordinates": [[0,50],[100,50]] }
     },
 
     {
       "type": "Feature",
-      "id": "field_border",
-      "properties": { "label": "Field Border", "stroke": "#000000", "stroke-width": 2 },
-      "geometry": { "type": "Polygon", "coordinates": [[[0,0],[100,0],[100,50],[0,50],[0,0]]] }
+      "id": "endzone_bottom",
+      "properties": { "label": "End Zone Bottom", "fill": "#FFCCCC" },
+      "geometry": { "type": "Polygon", "coordinates": [[[0,-5],[100,-5],[100,0],[0,0],[0,-5]]] }
+    },
+    {
+      "type": "Feature",
+      "id": "endzone_top",
+      "properties": { "label": "End Zone Top", "fill": "#FFCCCC" },
+      "geometry": { "type": "Polygon", "coordinates": [[[0,50],[100,50],[100,55],[0,55],[0,50]]] }
+    },
+
+    {
+      "type": "Feature",
+      "id": "center_circle",
+      "properties": { "label": "Center Circle", "stroke": "#FFFFFF" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [45,23],[46,25],[48,26],[50,26],[52,25],[53,23],
+          [52,21],[50,20],[48,20],[46,21],[45,23]
+        ]]
+      }
     }
   ]
 }
