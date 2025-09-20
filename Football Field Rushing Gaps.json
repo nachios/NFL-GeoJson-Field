@@ -5,211 +5,211 @@
       "type": "Feature",
       "id": "left_end_for_loss",
       "properties": { "region": "left_end_for_loss", "label": "Left End (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[0,0],[0,1],[14,1],[14,0],[0,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[0,0],[0,5],[14,5],[14,0],[0,0]]] }
     },
     {
       "type": "Feature",
       "id": "left_tackle_for_loss",
       "properties": { "region": "left_tackle_for_loss", "label": "Left Tackle (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[14,0],[14,1],[28,1],[28,0],[14,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[14,0],[14,5],[28,5],[28,0],[14,0]]] }
     },
     {
       "type": "Feature",
       "id": "left_guard_for_loss",
       "properties": { "region": "left_guard_for_loss", "label": "Left Guard (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[28,0],[28,1],[42,1],[42,0],[28,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[28,0],[28,5],[42,5],[42,0],[28,0]]] }
     },
     {
       "type": "Feature",
       "id": "middle_for_loss",
       "properties": { "region": "middle_for_loss", "label": "Middle (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[42,0],[42,1],[56,1],[56,0],[42,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[42,0],[42,5],[56,5],[56,0],[42,0]]] }
     },
     {
       "type": "Feature",
       "id": "right_guard_for_loss",
       "properties": { "region": "right_guard_for_loss", "label": "Right Guard (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[56,0],[56,1],[70,1],[70,0],[56,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[56,0],[56,5],[70,5],[70,0],[56,0]]] }
     },
     {
       "type": "Feature",
       "id": "right_tackle_for_loss",
       "properties": { "region": "right_tackle_for_loss", "label": "Right Tackle (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[70,0],[70,1],[84,1],[84,0],[70,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[70,0],[70,5],[84,5],[84,0],[70,0]]] }
     },
     {
       "type": "Feature",
       "id": "right_end_for_loss",
       "properties": { "region": "right_end_for_loss", "label": "Right End (Loss)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[84,0],[84,1],[100,1],[100,0],[84,0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[84,0],[84,5],[100,5],[100,0],[84,0]]] }
     },
     {
       "type": "Feature",
       "id": "left_end_short_gain",
       "properties": { "region": "left_end_short_gain", "label": "Left End (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[0,1],[0,2],[14,2],[14,1],[0,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[0,6],[0,15],[14,15],[14,6],[0,6]]] }
     },
     {
       "type": "Feature",
       "id": "left_tackle_short_gain",
       "properties": { "region": "left_tackle_short_gain", "label": "Left Tackle (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[14,1],[14,2],[28,2],[28,1],[14,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[14,6],[14,15],[28,15],[28,6],[14,6]]] }
     },
     {
       "type": "Feature",
       "id": "left_guard_short_gain",
       "properties": { "region": "left_guard_short_gain", "label": "Left Guard (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[28,1],[28,2],[42,2],[42,1],[28,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[28,6],[28,15],[42,15],[42,6],[28,6]]] }
     },
     {
       "type": "Feature",
       "id": "middle_short_gain",
       "properties": { "region": "middle_short_gain", "label": "Middle (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[42,1],[42,2],[56,2],[56,1],[42,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[42,6],[42,15],[56,15],[56,6],[42,6]]] }
     },
     {
       "type": "Feature",
       "id": "right_guard_short_gain",
       "properties": { "region": "right_guard_short_gain", "label": "Right Guard (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[56,1],[56,2],[70,2],[70,1],[56,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[56,6],[56,15],[70,15],[70,6],[56,6]]] }
     },
     {
       "type": "Feature",
       "id": "right_tackle_short_gain",
       "properties": { "region": "right_tackle_short_gain", "label": "Right Tackle (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[70,1],[70,2],[84,2],[84,1],[70,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[70,6],[70,15],[84,15],[84,6],[70,6]]] }
     },
     {
       "type": "Feature",
       "id": "right_end_short_gain",
       "properties": { "region": "right_end_short_gain", "label": "Right End (0–5)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[84,1],[84,2],[100,2],[100,1],[84,1]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[84,6],[84,15],[100,15],[100,6],[84,6]]] }
     },
     {
       "type": "Feature",
       "id": "left_end_medium_gain",
       "properties": { "region": "left_end_medium_gain", "label": "Left End (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[0,2],[0,3],[14,3],[14,2],[0,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[0,16],[0,25],[14,25],[14,16],[0,16]]] }
     },
     {
       "type": "Feature",
       "id": "left_tackle_medium_gain",
       "properties": { "region": "left_tackle_medium_gain", "label": "Left Tackle (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[14,2],[14,3],[28,3],[28,2],[14,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[14,16],[14,25],[28,25],[28,16],[14,16]]] }
     },
     {
       "type": "Feature",
       "id": "left_guard_medium_gain",
       "properties": { "region": "left_guard_medium_gain", "label": "Left Guard (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[28,2],[28,3],[42,3],[42,2],[28,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[28,16],[28,25],[42,25],[42,16],[28,16]]] }
     },
     {
       "type": "Feature",
       "id": "middle_medium_gain",
       "properties": { "region": "middle_medium_gain", "label": "Middle (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[42,2],[42,3],[56,3],[56,2],[42,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[42,16],[42,25],[56,25],[56,16],[42,16]]] }
     },
     {
       "type": "Feature",
       "id": "right_guard_medium_gain",
       "properties": { "region": "right_guard_medium_gain", "label": "Right Guard (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[56,2],[56,3],[70,3],[70,2],[56,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[56,16],[56,25],[70,25],[70,16],[56,16]]] }
     },
     {
       "type": "Feature",
       "id": "right_tackle_medium_gain",
       "properties": { "region": "right_tackle_medium_gain", "label": "Right Tackle (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[70,2],[70,3],[84,3],[84,2],[70,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[70,16],[70,25],[84,25],[84,16],[70,16]]] }
     },
     {
       "type": "Feature",
       "id": "right_end_medium_gain",
       "properties": { "region": "right_end_medium_gain", "label": "Right End (6–15)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[84,2],[84,3],[100,3],[100,2],[84,2]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[84,16],[84,25],[100,25],[100,16],[84,16]]] }
     },
     {
       "type": "Feature",
       "id": "left_end_long_gain",
       "properties": { "region": "left_end_long_gain", "label": "Left End (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[0,3],[0,4],[14,4],[14,3],[0,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[0,26],[0,35],[14,35],[14,26],[0,26]]] }
     },
     {
       "type": "Feature",
       "id": "left_tackle_long_gain",
       "properties": { "region": "left_tackle_long_gain", "label": "Left Tackle (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[14,3],[14,4],[28,4],[28,3],[14,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[14,26],[14,35],[28,35],[28,26],[14,26]]] }
     },
     {
       "type": "Feature",
       "id": "left_guard_long_gain",
       "properties": { "region": "left_guard_long_gain", "label": "Left Guard (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[28,3],[28,4],[42,4],[42,3],[28,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[28,26],[28,35],[42,35],[42,26],[28,26]]] }
     },
     {
       "type": "Feature",
       "id": "middle_long_gain",
       "properties": { "region": "middle_long_gain", "label": "Middle (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[42,3],[42,4],[56,4],[56,3],[42,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[42,26],[42,35],[56,35],[56,26],[42,26]]] }
     },
     {
       "type": "Feature",
       "id": "right_guard_long_gain",
       "properties": { "region": "right_guard_long_gain", "label": "Right Guard (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[56,3],[56,4],[70,4],[70,3],[56,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[56,26],[56,35],[70,35],[70,26],[56,26]]] }
     },
     {
       "type": "Feature",
       "id": "right_tackle_long_gain",
       "properties": { "region": "right_tackle_long_gain", "label": "Right Tackle (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[70,3],[70,4],[84,4],[84,3],[70,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[70,26],[70,35],[84,35],[84,26],[70,26]]] }
     },
     {
       "type": "Feature",
       "id": "right_end_long_gain",
       "properties": { "region": "right_end_long_gain", "label": "Right End (16–25)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[84,3],[84,4],[100,4],[100,3],[84,3]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[84,26],[84,35],[100,35],[100,26],[84,26]]] }
     },
     {
       "type": "Feature",
       "id": "left_end_deep_gain",
       "properties": { "region": "left_end_deep_gain", "label": "Left End (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[0,4],[0,5],[14,5],[14,4],[0,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[0,36],[0,50],[14,50],[14,36],[0,36]]] }
     },
     {
       "type": "Feature",
       "id": "left_tackle_deep_gain",
       "properties": { "region": "left_tackle_deep_gain", "label": "Left Tackle (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[14,4],[14,5],[28,5],[28,4],[14,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[14,36],[14,50],[28,50],[28,36],[14,36]]] }
     },
     {
       "type": "Feature",
       "id": "left_guard_deep_gain",
       "properties": { "region": "left_guard_deep_gain", "label": "Left Guard (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[28,4],[28,5],[42,5],[42,4],[28,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[28,36],[28,50],[42,50],[42,36],[28,36]]] }
     },
     {
       "type": "Feature",
       "id": "middle_deep_gain",
       "properties": { "region": "middle_deep_gain", "label": "Middle (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[42,4],[42,5],[56,5],[56,4],[42,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[42,36],[42,50],[56,50],[56,36],[42,36]]] }
     },
     {
       "type": "Feature",
       "id": "right_guard_deep_gain",
       "properties": { "region": "right_guard_deep_gain", "label": "Right Guard (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[56,4],[56,5],[70,5],[70,4],[56,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[56,36],[56,50],[70,50],[70,36],[56,36]]] }
     },
     {
       "type": "Feature",
       "id": "right_tackle_deep_gain",
       "properties": { "region": "right_tackle_deep_gain", "label": "Right Tackle (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[70,4],[70,5],[84,5],[84,4],[70,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[70,36],[70,50],[84,50],[84,36],[70,36]]] }
     },
     {
       "type": "Feature",
       "id": "right_end_deep_gain",
       "properties": { "region": "right_end_deep_gain", "label": "Right End (26+)" },
-      "geometry": { "type": "Polygon", "coordinates": [[[84,4],[84,5],[100,5],[100,4],[84,4]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[84,36],[84,50],[100,50],[100,36],[84,36]]] }
     }
   ]
 }
