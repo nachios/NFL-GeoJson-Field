@@ -132,19 +132,6 @@
       "id": "endzone_top",
       "properties": { "label": "End Zone Top", "fill": "#FFCCCC" },
       "geometry": { "type": "Polygon", "coordinates": [[[0,50],[100,50],[100,55],[0,55],[0,50]]] }
-    },
-
-    {
-      "type": "Feature",
-      "id": "center_circle",
-      "properties": { "label": "Center Circle", "stroke": "#FFFFFF" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [45,23],[46,25],[48,26],[50,26],[52,25],[53,23],
-          [52,21],[50,20],[48,20],[46,21],[45,23]
-        ]]
-      }
     }
   ]
 }
